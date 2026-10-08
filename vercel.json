@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "npx next build",
+  "rewrites": [
+    {
+      "source": "/assets/:path*",
+      "destination": "https://chill-kitty-showcase.yuegen1.chatgpt.site/assets/:path*"
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "https://chill-kitty-showcase.yuegen1.chatgpt.site/data/:path*"
+    },
+    {
+      "source": "/AaHouDiHei-2.ttf",
+      "destination": "https://chill-kitty-showcase.yuegen1.chatgpt.site/AaHouDiHei-2.ttf"
+    },
+    {
+      "source": "/a4e708888f767f5170b5fdd4b17270c0.ttf",
+      "destination": "https://chill-kitty-showcase.yuegen1.chatgpt.site/a4e708888f767f5170b5fdd4b17270c0.ttf"
+    }
+  ]
+}

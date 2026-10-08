@@ -1,4 +1,4 @@
-# Fridge Cat
+# Chill Kitty
 
 A playful zero-waste food companion and graduation project by Nara.
 

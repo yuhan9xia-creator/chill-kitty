@@ -1,0 +1,1233 @@
+{
+  "potato": {
+    "id": "potato",
+    "name": {
+      "en": "Potato",
+      "cn": "土豆"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      21,
+      5,
+      1
+    ],
+    "lore": {
+      "en": "Earth dweller.",
+      "cn": "大地居民。"
+    },
+    "realWorldSecret": {
+      "cn": "土豆适合放在阴凉、干燥、避光的地方。太潮或见光太久，都更容易发芽或变坏。",
+      "en": "Potatoes keep best in a cool, dark, and dry place. Too much light or moisture can make them sprout or spoil faster."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "onion": {
+    "id": "onion",
+    "name": {
+      "en": "Onion",
+      "cn": "洋葱"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      30,
+      7,
+      60
+    ],
+    "lore": {
+      "en": "Crying layers.",
+      "cn": "流泪的层级。"
+    },
+    "realWorldSecret": {
+      "cn": "整颗洋葱喜欢干燥又通风的环境。别和土豆挨太近，不然两边都可能坏得更快。",
+      "en": "Whole onions prefer a dry and well-ventilated spot. Try not to store them too close to potatoes, as both may spoil faster together."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "garlic": {
+    "id": "garlic",
+    "name": {
+      "en": "Garlic",
+      "cn": "大蒜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      60,
+      10,
+      120
+    ],
+    "lore": {
+      "en": "Kitchen protector.",
+      "cn": "厨房守护者。"
+    },
+    "realWorldSecret": {
+      "cn": "大蒜适合放在阴凉、干燥、通风处。太潮湿时，它更容易发芽或发霉。",
+      "en": "Garlic keeps best in a cool, dry place with good airflow. Too much moisture can make it sprout or grow mold."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "sweet_potato": {
+    "id": "sweet_potato",
+    "name": {
+      "en": "Sweet Potato",
+      "cn": "红薯"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      14,
+      7,
+      30
+    ],
+    "lore": {
+      "en": "Deep earth candy.",
+      "cn": "大地的糖果。"
+    },
+    "realWorldSecret": {
+      "cn": "红薯喜欢阴凉干燥的环境，不适合太冷的地方。低温可能会影响它的口感和甜味。",
+      "en": "Sweet potatoes prefer a cool and dry place, not somewhere too cold. Low temperatures can affect both their texture and sweetness."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "spinach": {
+    "id": "spinach",
+    "name": {
+      "en": "Spinach",
+      "cn": "菠菜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      1,
+      5,
+      0.1
+    ],
+    "lore": {
+      "en": "Tender green leaves.",
+      "cn": "柔嫩的绿叶。"
+    },
+    "realWorldSecret": {
+      "cn": "菠菜最好放在冰箱里，并尽量保持干燥。叶子如果一直潮湿，很快会变软、发黏或腐坏。",
+      "en": "Spinach keeps best in the fridge and should stay as dry as possible. If the leaves stay wet, they can quickly become limp, slimy, or spoiled."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.8
+    },
+    "quantityKind": "uncountable"
+  },
+  "banana": {
+    "id": "banana",
+    "name": {
+      "en": "Banana",
+      "cn": "香蕉"
+    },
+    "category": "Fruit",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      5,
+      1,
+      60
+    ],
+    "lore": {
+      "en": "Tropical smile.",
+      "cn": "热带的微笑。"
+    },
+    "realWorldSecret": {
+      "cn": "香蕉在室温下更容易自然成熟。放进冰箱后，外皮会很快变黑。",
+      "en": "Bananas ripen naturally at room temperature. In the fridge, the peel can turn dark very quickly."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 0.88
+    },
+    "quantityKind": "countable"
+  },
+  "orange": {
+    "id": "orange",
+    "name": {
+      "en": "Orange",
+      "cn": "橙子"
+    },
+    "category": "Fruit",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      10,
+      21,
+      90
+    ],
+    "lore": {
+      "en": "Vitamin globe.",
+      "cn": "维他命星球。"
+    },
+    "realWorldSecret": {
+      "cn": "橙子放常温适合短时间食用。放在阴凉处会比晒到太阳更耐放。",
+      "en": "Oranges can stay at room temperature for short-term use. A cool spot is better than direct sunlight."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "lemon": {
+    "id": "lemon",
+    "name": {
+      "en": "Lemon",
+      "cn": "柠檬"
+    },
+    "category": "Fruit",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      7,
+      21,
+      90
+    ],
+    "lore": {
+      "en": "Sour star.",
+      "cn": "酸涩之星。"
+    },
+    "realWorldSecret": {
+      "cn": "整颗柠檬短时间可以放常温。避开高温和阳光，会更不容易失水。",
+      "en": "Whole lemons can stay at room temperature for a short time. Keep them away from heat and direct sunlight so they do not dry out too fast."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "apple": {
+    "id": "apple",
+    "name": {
+      "en": "Apple",
+      "cn": "苹果"
+    },
+    "category": "Fruit",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      7,
+      30,
+      180
+    ],
+    "lore": {
+      "en": "Forbidden fruit.",
+      "cn": "禁忌之果。"
+    },
+    "realWorldSecret": {
+      "cn": "苹果放常温适合短期吃完。它会释放乙烯，可能让附近水果熟得更快。",
+      "en": "Apples can stay on the counter if you plan to eat them soon. They release ethylene, which may speed up ripening in nearby fruit."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 0.15
+    },
+    "quantityKind": "countable"
+  },
+  "watermelon": {
+    "id": "watermelon",
+    "name": {
+      "en": "Watermelon",
+      "cn": "西瓜"
+    },
+    "category": "Fruit",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      7,
+      4,
+      30
+    ],
+    "lore": {
+      "en": "Summer giant.",
+      "cn": "夏日巨人。"
+    },
+    "realWorldSecret": {
+      "cn": "整颗西瓜放常温没有问题。切开以后就要尽快冷藏，并把切面包好。",
+      "en": "A whole watermelon can stay at room temperature just fine. Once cut, it should be chilled quickly and covered well."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 0.63
+    },
+    "quantityKind": "countable"
+  },
+  "tomato": {
+    "id": "tomato",
+    "name": {
+      "en": "Tomato",
+      "cn": "番茄"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      7,
+      3,
+      30
+    ],
+    "lore": {
+      "en": "Sunny traveler.",
+      "cn": "阳光旅行者。"
+    },
+    "realWorldSecret": {
+      "cn": "番茄在室温下成熟时风味最好。太早冷藏会让它的香气和口感都变淡。",
+      "en": "Tomatoes taste best while ripening at room temperature. Chilling them too early can dull both flavor and texture."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 0.63
+    },
+    "quantityKind": "countable"
+  },
+  "pineapple": {
+    "id": "pineapple",
+    "name": {
+      "en": "Pineapple",
+      "cn": "菠萝"
+    },
+    "category": "Fruit",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      5,
+      3,
+      30
+    ],
+    "lore": {
+      "en": "Golden crown.",
+      "cn": "金色的皇冠。"
+    },
+    "realWorldSecret": {
+      "cn": "整颗菠萝可以先放在常温。它采摘后不会继续明显变甜，所以放更久也不会更好吃。",
+      "en": "A whole pineapple can stay at room temperature before cutting. It will not become much sweeter after harvest, so waiting longer will not improve the taste."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 0.88
+    },
+    "quantityKind": "countable"
+  },
+  "rye_bread": {
+    "id": "rye_bread",
+    "name": {
+      "en": "Rye Bread",
+      "cn": "黑麦面包"
+    },
+    "category": "Grain",
+    "bestStorage": "Pantry Garden",
+    "baseLifespan": [
+      5,
+      2,
+      90
+    ],
+    "lore": {
+      "en": "Nordic staple.",
+      "cn": "北欧主食。"
+    },
+    "realWorldSecret": {
+      "cn": "黑麦面包密封后放常温就可以。放进冰箱反而更容易变干。",
+      "en": "Rye bread keeps well at room temperature when sealed properly. The fridge often dries bread out faster instead of helping it last."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.8
+    },
+    "quantityKind": "uncountable"
+  },
+  "carrot": {
+    "id": "carrot",
+    "name": {
+      "en": "Carrot",
+      "cn": "胡萝卜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      7,
+      21,
+      90
+    ],
+    "lore": {
+      "en": "Orange root.",
+      "cn": "橙色的根脉。"
+    },
+    "realWorldSecret": {
+      "cn": "胡萝卜冷藏会更脆更耐放。带叶的话，最好先把叶子去掉，避免继续失水。",
+      "en": "Carrots stay crisp longer in the fridge. If they still have leafy tops, remove them first so they do not pull out extra moisture."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "ginger": {
+    "id": "ginger",
+    "name": {
+      "en": "Ginger",
+      "cn": "生姜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      30,
+      60,
+      180
+    ],
+    "lore": {
+      "en": "Zesty root.",
+      "cn": "辛辣的根茎。"
+    },
+    "realWorldSecret": {
+      "cn": "生姜冷藏能放更久，尤其是切开之后。记得包好，不然很容易变干。",
+      "en": "Fresh ginger keeps longer in the fridge, especially once cut. Wrap it well so it does not dry out too quickly."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "uncountable"
+  },
+  "eggplant": {
+    "id": "eggplant",
+    "name": {
+      "en": "Eggplant",
+      "cn": "茄子"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      5,
+      3,
+      14
+    ],
+    "lore": {
+      "en": "Purple robe.",
+      "cn": "紫色的长袍。"
+    },
+    "realWorldSecret": {
+      "cn": "茄子放冷藏可以稍微延长保存时间。别放太久，不然容易发软或变色。",
+      "en": "Eggplant can be chilled to help it last a bit longer. Do not keep it too long, or it may soften or discolor."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "bell_pepper": {
+    "id": "bell_pepper",
+    "name": {
+      "en": "Bell Pepper",
+      "cn": "彩椒"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      3,
+      7,
+      30
+    ],
+    "lore": {
+      "en": "Crisp colors.",
+      "cn": "清脆的色彩。"
+    },
+    "realWorldSecret": {
+      "cn": "彩椒冷藏后更容易保持爽脆。梗部通常会最先变软，可以先从那里判断新鲜度。",
+      "en": "Bell peppers stay crisp longer in the fridge. The stem side usually softens first, so check there when deciding if it is still fresh."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "zucchini": {
+    "id": "zucchini",
+    "name": {
+      "en": "Zucchini",
+      "cn": "西葫芦"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      3,
+      7,
+      30
+    ],
+    "lore": {
+      "en": "Summer squash.",
+      "cn": "夏日瓜果。"
+    },
+    "realWorldSecret": {
+      "cn": "西葫芦适合短时间冷藏。开始发软或摸起来有点水水的，就已经不在最佳状态了。",
+      "en": "Zucchini holds up well in the fridge for a short time. If it starts to feel limp or watery, it is already past its best."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "grape": {
+    "id": "grape",
+    "name": {
+      "en": "Grape",
+      "cn": "葡萄"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      1,
+      7,
+      14
+    ],
+    "lore": {
+      "en": "Juice beads.",
+      "cn": "多汁的珠帘。"
+    },
+    "realWorldSecret": {
+      "cn": "葡萄冷藏保存会更稳，保持干燥很重要。最好吃之前再洗。",
+      "en": "Grapes keep better when chilled and kept dry. Wash them right before eating, not before storing."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "uncountable"
+  },
+  "egg": {
+    "id": "egg",
+    "name": {
+      "en": "Egg",
+      "cn": "鸡蛋"
+    },
+    "category": "Protein",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      7,
+      30,
+      0.1
+    ],
+    "lore": {
+      "en": "Life in shell.",
+      "cn": "壳中生命。"
+    },
+    "realWorldSecret": {
+      "cn": "鸡蛋放冷藏最安心，最好留在原盒里。这样也能减少吸收别的味道。",
+      "en": "Eggs are happiest in the fridge, ideally in their carton. The carton also helps protect them from odors."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "beetroot": {
+    "id": "beetroot",
+    "name": {
+      "en": "Beetroot",
+      "cn": "甜菜根"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      10,
+      30,
+      90
+    ],
+    "lore": {
+      "en": "Purple heart.",
+      "cn": "紫色之心。"
+    },
+    "realWorldSecret": {
+      "cn": "甜菜根冷藏后会更耐放。带叶的话最好先分开，因为叶子会继续带走水分。",
+      "en": "Beetroot stores well in the fridge and lasts longer without its leafy tops. The leaves pull moisture away from the root."
+    },
+    "vitality_formula": {
+      "type": "linear"
+    },
+    "quantityKind": "countable"
+  },
+  "avocado": {
+    "id": "avocado",
+    "name": {
+      "en": "Avocado",
+      "cn": "牛油果"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      4,
+      7,
+      30
+    ],
+    "lore": {
+      "en": "Forest butter.",
+      "cn": "森林黄油。"
+    },
+    "realWorldSecret": {
+      "cn": "牛油果熟了之后再冷藏，能慢一点变过熟。还硬的时候，先放常温会更合适。",
+      "en": "Refrigerate avocados once they are ripe to slow them down. If they are still hard, let them ripen first before chilling."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 1.1
+    },
+    "quantityKind": "countable"
+  },
+  "kiwi": {
+    "id": "kiwi",
+    "name": {
+      "en": "Kiwi",
+      "cn": "奇异果"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      7,
+      21,
+      180
+    ],
+    "lore": {
+      "en": "Fuzzy gem.",
+      "cn": "毛茸茸的宝石。"
+    },
+    "realWorldSecret": {
+      "cn": "熟了的猕猴桃放冷藏会更耐放。还偏硬的话，先在室温下放软一点。",
+      "en": "Ripe kiwis last longer in the fridge. If they are still firm, leave them out first and chill them after they soften."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 0.63
+    },
+    "quantityKind": "countable"
+  },
+  "pear": {
+    "id": "pear",
+    "name": {
+      "en": "Pear",
+      "cn": "梨"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      5,
+      14,
+      180
+    ],
+    "lore": {
+      "en": "Grainy sweet.",
+      "cn": "沙甜的滋味。"
+    },
+    "realWorldSecret": {
+      "cn": "梨熟了以后更适合冷藏。它常常会突然变软，所以记得多看一眼。",
+      "en": "Pears should go into the fridge once ripe. They can turn from perfect to too soft surprisingly fast, so check them often."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 0.88
+    },
+    "quantityKind": "countable"
+  },
+  "mango": {
+    "id": "mango",
+    "name": {
+      "en": "Mango",
+      "cn": "芒果"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      4,
+      3,
+      90
+    ],
+    "lore": {
+      "en": "Tropical king.",
+      "cn": "热带之王。"
+    },
+    "realWorldSecret": {
+      "cn": "熟了的芒果可以冷藏，帮助它多保持一会儿。还硬的时候，先放常温成熟更好。",
+      "en": "A ripe mango can be chilled to help it last a bit longer. If it is still hard, let it ripen on the counter first."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 1.1
+    },
+    "quantityKind": "countable"
+  },
+  "peach": {
+    "id": "peach",
+    "name": {
+      "en": "Peach",
+      "cn": "桃子"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      3,
+      5,
+      90
+    ],
+    "lore": {
+      "en": "Soft whisper.",
+      "cn": "柔软的低语。"
+    },
+    "realWorldSecret": {
+      "cn": "桃子很娇嫩，熟了以后放冷藏更稳。拿取时轻一点，压伤后会坏得特别快。",
+      "en": "Peaches are delicate and bruise easily, so handle them gently in the fridge. Chill them only after they have ripened."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 1.46
+    },
+    "quantityKind": "countable"
+  },
+  "plum": {
+    "id": "plum",
+    "name": {
+      "en": "Plum",
+      "cn": "李子"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      3,
+      7,
+      90
+    ],
+    "lore": {
+      "en": "Summer jewel.",
+      "cn": "夏日的宝石。"
+    },
+    "realWorldSecret": {
+      "cn": "李子熟了以后放冷藏会更耐放。它变软的速度很快，冷藏能帮你多争取一点时间。",
+      "en": "Plums keep well in the fridge once ripe. They soften quickly, so cold storage helps buy you a little extra time."
+    },
+    "vitality_formula": {
+      "type": "logistic",
+      "declineRate": 0.88
+    },
+    "quantityKind": "countable"
+  },
+  "cabbage": {
+    "id": "cabbage",
+    "name": {
+      "en": "Cabbage",
+      "cn": "球包菜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      3,
+      14,
+      30
+    ],
+    "lore": {
+      "en": "Layered heart.",
+      "cn": "千层之心。"
+    },
+    "realWorldSecret": {
+      "cn": "卷心菜很适合冷藏，整颗通常比切开的更耐放。切开后记得把切面包好。",
+      "en": "White cabbage lasts well in the fridge, especially when kept whole. Once cut, wrap the exposed side to keep it from drying out."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.18
+    },
+    "quantityKind": "countable"
+  },
+  "red_cabbage": {
+    "id": "red_cabbage",
+    "name": {
+      "en": "Red Cabbage",
+      "cn": "紫甘蓝"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      5,
+      14,
+      60
+    ],
+    "lore": {
+      "en": "Purple guardian.",
+      "cn": "紫色守护者。"
+    },
+    "realWorldSecret": {
+      "cn": "紫甘蓝本身比较耐放，也很适合冷藏。切开后只要把切面盖好，通常还能再放一阵子。",
+      "en": "Red cabbage is sturdy and fridge-friendly. A cut half can still last well if the open side is covered properly."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.18
+    },
+    "quantityKind": "countable"
+  },
+  "broccoli": {
+    "id": "broccoli",
+    "name": {
+      "en": "Broccoli",
+      "cn": "西兰花"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      1,
+      5,
+      90
+    ],
+    "lore": {
+      "en": "Little trees.",
+      "cn": "小小的森林。"
+    },
+    "realWorldSecret": {
+      "cn": "西兰花冷藏时需要一点点透气。太潮或太闷，都可能让它更快发黄。",
+      "en": "Broccoli keeps best in the fridge with a little airflow. Too much trapped moisture can make it yellow or spoil faster."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.6
+    },
+    "quantityKind": "countable"
+  },
+  "kale": {
+    "id": "kale",
+    "name": {
+      "en": "Kale",
+      "cn": "羽衣甘蓝"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      2,
+      7,
+      30
+    ],
+    "lore": {
+      "en": "Hardy green.",
+      "cn": "坚韧的绿叶。"
+    },
+    "realWorldSecret": {
+      "cn": "羽衣甘蓝适合冷藏，也要尽量保持干爽。叶子一直湿着，会更容易蔫掉。",
+      "en": "Kale likes a cool fridge and a dry bag. If the leaves stay too wet, they wilt and spoil much faster."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.43
+    },
+    "quantityKind": "uncountable"
+  },
+  "lettuce": {
+    "id": "lettuce",
+    "name": {
+      "en": "Lettuce",
+      "cn": "生菜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      1,
+      5,
+      0.1
+    ],
+    "lore": {
+      "en": "Crispy leaf.",
+      "cn": "清脆的叶片。"
+    },
+    "realWorldSecret": {
+      "cn": "生菜冷藏时最怕多余水分。太湿会让叶子很快发软、发黏。",
+      "en": "Lettuce stays freshest when chilled and kept dry. Extra water makes the leaves limp and slimy very quickly."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.8
+    },
+    "quantityKind": "countable"
+  },
+  "cucumber": {
+    "id": "cucumber",
+    "name": {
+      "en": "Cucumber",
+      "cn": "黄瓜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      3,
+      7,
+      14
+    ],
+    "lore": {
+      "en": "Water wand.",
+      "cn": "水分之杖。"
+    },
+    "realWorldSecret": {
+      "cn": "黄瓜可以放冷藏几天。放太久的话，容易慢慢变软又出水。",
+      "en": "Cucumbers can be stored in the fridge for a few days. If they stay there too long, they may turn soft and watery."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.43
+    },
+    "quantityKind": "countable"
+  },
+  "mushroom": {
+    "id": "mushroom",
+    "name": {
+      "en": "Mushroom",
+      "cn": "蘑菇"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      1,
+      4,
+      30
+    ],
+    "lore": {
+      "en": "Forest whisper.",
+      "cn": "森林的耳语。"
+    },
+    "realWorldSecret": {
+      "cn": "蘑菇冷藏时需要一点透气空间。太闷的话，表面很容易变黏。",
+      "en": "Mushrooms do best in the fridge with a little breathing room. A paper bag is often better than plastic, which can make them slimy."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.88
+    },
+    "quantityKind": "uncountable"
+  },
+  "strawberry": {
+    "id": "strawberry",
+    "name": {
+      "en": "Strawberry",
+      "cn": "草莓"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      1,
+      3,
+      90
+    ],
+    "lore": {
+      "en": "Red heart.",
+      "cn": "赤诚之心。"
+    },
+    "realWorldSecret": {
+      "cn": "草莓很怕潮，冷藏时尽量保持干燥。最好吃之前再洗，这样更不容易发霉。",
+      "en": "Strawberries spoil quickly when they stay damp. Keep them chilled and wash them only right before eating."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 1.5
+    },
+    "quantityKind": "uncountable"
+  },
+  "blueberry": {
+    "id": "blueberry",
+    "name": {
+      "en": "Blueberry",
+      "cn": "蓝莓"
+    },
+    "category": "Fruit",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      2,
+      7,
+      360
+    ],
+    "lore": {
+      "en": "Indigo pearls.",
+      "cn": "靛蓝珍珠。"
+    },
+    "realWorldSecret": {
+      "cn": "蓝莓冷藏会更耐放，重点也是别太早洗。多余水分会让它更容易发霉。",
+      "en": "Blueberries keep longer in the fridge, especially when kept dry. Wash them only before eating to avoid extra moisture."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.43
+    },
+    "quantityKind": "uncountable"
+  },
+  "milk": {
+    "id": "milk",
+    "name": {
+      "en": "Milk",
+      "cn": "牛奶"
+    },
+    "category": "Dairy",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      0.1,
+      7,
+      30
+    ],
+    "lore": {
+      "en": "White river.",
+      "cn": "白色的河流。"
+    },
+    "realWorldSecret": {
+      "cn": "牛奶要稳定冷藏，尽量放在冰箱里面，不要总放门边。温度越稳定越好。",
+      "en": "Milk should stay steadily chilled, ideally deeper inside the fridge instead of on the door. The more stable the temperature, the better."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.5
+    },
+    "quantityKind": "uncountable"
+  },
+  "cheese": {
+    "id": "cheese",
+    "name": {
+      "en": "Cheese",
+      "cn": "奶酪"
+    },
+    "category": "Dairy",
+    "bestStorage": "Fridge Sanctuary",
+    "baseLifespan": [
+      2,
+      21,
+      180
+    ],
+    "lore": {
+      "en": "Time's milk.",
+      "cn": "时间的乳汁。"
+    },
+    "realWorldSecret": {
+      "cn": "奶酪放冷藏更稳，包好能避免失水和串味。封得太闷时，也可能容易出汗。",
+      "en": "Cheese keeps best in the fridge and should be wrapped well to avoid drying out or picking up odors. If sealed too tightly, it may also sweat."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.1
+    },
+    "quantityKind": "uncountable"
+  },
+  "chicken_breast": {
+    "id": "chicken_breast",
+    "name": {
+      "en": "Chicken Breast",
+      "cn": "鸡胸肉"
+    },
+    "category": "Protein",
+    "bestStorage": "Ice Island",
+    "baseLifespan": [
+      0.1,
+      2,
+      270
+    ],
+    "lore": {
+      "en": "Lean protein.",
+      "cn": "精益蛋白。"
+    },
+    "realWorldSecret": {
+      "cn": "鸡胸肉如果不是马上要煮，尽快冷冻会更稳。先分装好，之后解冻会方便很多。",
+      "en": "If you are not cooking chicken breast soon, freezing it early is the safest move. Portioning it first makes thawing much easier later."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.01
+    },
+    "quantityKind": "uncountable",
+    "storage_vitality_formula": {
+      "Fridge Sanctuary": {
+        "type": "exponential",
+        "declineRate": 0.72
+      }
+    }
+  },
+  "beef": {
+    "id": "beef",
+    "name": {
+      "en": "Beef",
+      "cn": "牛肉"
+    },
+    "category": "Protein",
+    "bestStorage": "Ice Island",
+    "baseLifespan": [
+      0.1,
+      3,
+      180
+    ],
+    "lore": {
+      "en": "Primal power.",
+      "cn": "原始的力量。"
+    },
+    "realWorldSecret": {
+      "cn": "牛肉想放久一点就适合冷冻。提前分成小份，不仅省空间，也更方便一次取用。",
+      "en": "Beef is a great candidate for the freezer when you want to keep it longer. Dividing it into smaller portions saves space and makes cooking easier."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.02
+    },
+    "quantityKind": "uncountable",
+    "storage_vitality_formula": {
+      "Fridge Sanctuary": {
+        "type": "exponential",
+        "declineRate": 0.55
+      }
+    }
+  },
+  "pork": {
+    "id": "pork",
+    "name": {
+      "en": "Pork",
+      "cn": "猪肉"
+    },
+    "category": "Protein",
+    "bestStorage": "Ice Island",
+    "baseLifespan": [
+      0.1,
+      2,
+      180
+    ],
+    "lore": {
+      "en": "Hearty staple.",
+      "cn": "家常主力。"
+    },
+    "realWorldSecret": {
+      "cn": "猪肉如果暂时不做，冷冻会更安心。分装保存还能减少反复解冻带来的浪费。",
+      "en": "Pork keeps much better in the freezer if you are not using it soon. Freezing it in portions also helps avoid waste from repeated thawing."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.02
+    },
+    "quantityKind": "uncountable",
+    "storage_vitality_formula": {
+      "Fridge Sanctuary": {
+        "type": "exponential",
+        "declineRate": 0.68
+      }
+    }
+  },
+  "salmon": {
+    "id": "salmon",
+    "name": {
+      "en": "Salmon",
+      "cn": "三文鱼"
+    },
+    "category": "Protein",
+    "bestStorage": "Ice Island",
+    "baseLifespan": [
+      0.1,
+      1,
+      90
+    ],
+    "lore": {
+      "en": "Cold water gem.",
+      "cn": "冷水中的宝石。"
+    },
+    "realWorldSecret": {
+      "cn": "三文鱼很娇气，买回家后尽量尽快冷藏并早点吃。拖太久的话，风味和口感都会掉得很快。",
+      "en": "Salmon is delicate, so chill it as soon as possible and try to use it soon after buying. If left too long, both flavor and texture fade quickly."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.04
+    },
+    "quantityKind": "uncountable",
+    "storage_vitality_formula": {
+      "Fridge Sanctuary": {
+        "type": "exponential",
+        "declineRate": 1.2
+      }
+    }
+  },
+  "shrimp": {
+    "id": "shrimp",
+    "name": {
+      "en": "Shrimp",
+      "cn": "虾"
+    },
+    "category": "Protein",
+    "bestStorage": "Ice Island",
+    "baseLifespan": [
+      0.1,
+      1,
+      120
+    ],
+    "lore": {
+      "en": "Ocean flicker.",
+      "cn": "大海的闪烁。"
+    },
+    "realWorldSecret": {
+      "cn": "虾的新鲜度掉得很快，不准备马上煮就尽快冷冻。越早处理，口感通常越好。",
+      "en": "Shrimp loses freshness very quickly, so freeze it soon if you are not cooking it right away. The sooner it is stored properly, the better the texture usually stays."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.03
+    },
+    "quantityKind": "uncountable",
+    "storage_vitality_formula": {
+      "Fridge Sanctuary": {
+        "type": "exponential",
+        "declineRate": 1.1
+      }
+    }
+  },
+  "cauliflower": {
+    "id": "cauliflower",
+    "name": {
+      "en": "Cauliflower",
+      "cn": "花椰菜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Ice Island",
+    "baseLifespan": [
+      2,
+      7,
+      90
+    ],
+    "lore": {
+      "en": "Pale bouquet.",
+      "cn": "苍白的束花。"
+    },
+    "realWorldSecret": {
+      "cn": "花椰菜如果想保存更久，可以冷冻。先处理成小朵会更方便之后直接下锅。",
+      "en": "Cauliflower can go into the freezer if you want to keep it longer. Cutting it into florets first makes it easier to cook later."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.43
+    },
+    "quantityKind": "countable"
+  },
+  "celery": {
+    "id": "celery",
+    "name": {
+      "en": "Celery",
+      "cn": "芹菜"
+    },
+    "category": "Vegetable",
+    "bestStorage": "Ice Island",
+    "baseLifespan": [
+      3,
+      14,
+      30
+    ],
+    "lore": {
+      "en": "Water sticks.",
+      "cn": "水分之杖。"
+    },
+    "realWorldSecret": {
+      "cn": "西芹想延长保存时间时，可以冷冻起来。切段后再冻，会更适合后面拿来煮汤或炒菜。",
+      "en": "Celery can be frozen when you want to stretch its storage time. Cutting it into pieces first makes it easier to use later in soups or stir-fries."
+    },
+    "vitality_formula": {
+      "type": "exponential",
+      "declineRate": 0.18
+    },
+    "quantityKind": "uncountable"
+  }
+}

@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "AaHouDiHei";
+  src: url("/AaHouDiHei-2.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "A4E7";
+  src: url("/a4e708888f767f5170b5fdd4b17270c0.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --app-scale: 1;
+  --app-h: 100dvh;
+  background: #f0eee9;
+}
+
+@theme inline {
+  --color-haven-sage: #d8e63c;
+  --color-haven-lime: #e2e8b0;
+  --color-haven-cream: #f0eee9;
+  --color-haven-peach: #f3c693;
+  --color-haven-darksage: #a3b18a;
+  --color-haven-olive: #6b705c;
+  --color-haven-moss: #a5a58d;
+  --color-haven-beige: #ffe8d6;
+  --color-haven-tan: #ddbea9;
+  --color-haven-brown: #6d4c3d;
+  --color-haven-violet: #d6b4fc;
+  --color-haven-deeppurple: #273287;
+  --color-haven-midnight: #17184b;
+  --color-haven-nordic: #d3dde7;
+  --color-haven-red: #ff6b6b;
+  --font-aahou: "AaHouDiHei", sans-serif;
+  --animate-cat-float: cat-float 5.917s ease-in-out infinite;
+}
+
+@keyframes cat-float {
+  0%, 51%, 100% { transform: translateY(0); }
+  24% { transform: translateY(3px); }
+  75% { transform: translateY(-3px); }
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+body {
+  background-color: #f0eee9;
+  color: #1e293b;
+  font-family: "AaHouDiHei", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  overscroll-behavior-y: contain;
+}
+
+.font-serif { font-family: Georgia, "Times New Roman", serif; }
+.emoji-font { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear,
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-textfield-decoration-container {
+  display: none !important;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #a5a58d; border-radius: 10px; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+.vitality-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 50%;
+  background: #5f4d41;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgb(95 77 65 / 40%);
+}
+
+.vitality-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 50%;
+  background: #5f4d41;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgb(95 77 65 / 40%);
+}
